@@ -58,12 +58,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Security" />
+    <Folder Include="dbo" />
+    <Folder Include="Person" />
+    <Folder Include="Sales" />
+    <Folder Include="Inventory" />
   </ItemGroup>
   <ItemGroup>
-    <Build Include="Person.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Sales.sql" />
-    <None Include="Inventory.sql" />
+    <Build Include="Security\Person.sql" />
+    <Build Include="Security\Sales.sql" />
+    <Build Include="Security\Inventory.sql" />
   </ItemGroup>
 </Project>
