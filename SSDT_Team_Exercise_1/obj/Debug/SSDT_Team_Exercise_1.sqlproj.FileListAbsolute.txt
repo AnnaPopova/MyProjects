@@ -1,0 +1,9 @@
+C:\Temp\SSDT_Ex\SSDT_Team_Exercise_1\SSDT_Team_Exercise_1\bin\Debug\SSDT_Team_Exercise_1.dacpac
+C:\Temp\SSDT_Ex\SSDT_Team_Exercise_1\SSDT_Team_Exercise_1\bin\Debug\SSDT_Team_Exercise_1.dll
+C:\Temp\SSDT_Ex\SSDT_Team_Exercise_1\SSDT_Team_Exercise_1\bin\Debug\SSDT_Team_Exercise_1.pdb
+C:\Temp\SSDT_Ex\SSDT_Team_Exercise_1\SSDT_Team_Exercise_1\obj\Debug\SSDT_Team_Exercise_1.dll
+C:\Temp\SSDT_Ex\SSDT_Team_Exercise_1\SSDT_Team_Exercise_1\obj\Debug\SSDT_Team_Exercise_1.pdb
+C:\Temp\SSDT_Ex\SSDT_Team_Exercise_1\SSDT_Team_Exercise_1\obj\Debug\Model.xml
+C:\Temp\SSDT_Ex\SSDT_Team_Exercise_1\SSDT_Team_Exercise_1\obj\Debug\refactor.xml
+C:\Temp\SSDT_Ex\SSDT_Team_Exercise_1\SSDT_Team_Exercise_1\obj\Debug\postdeploy.sql
+C:\Temp\SSDT_Ex\SSDT_Team_Exercise_1\SSDT_Team_Exercise_1\obj\Debug\predeploy.sql
