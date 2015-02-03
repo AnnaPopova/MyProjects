@@ -67,5 +67,11 @@
     <Build Include="Security\Person.sql" />
     <Build Include="Security\Sales.sql" />
     <Build Include="Security\Inventory.sql" />
+    <Build Include="Person\Person.sql" />
+    <Build Include="Person\Customer.sql" />
+    <Build Include="Person\SalesPerson.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="SSDT_Team_Exercise_1.refactorlog" />
   </ItemGroup>
 </Project>

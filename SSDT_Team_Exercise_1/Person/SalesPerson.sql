@@ -1,0 +1,8 @@
+﻿CREATE TABLE [Person].[SalesPerson]
+(
+	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(), 
+    [PersonId] UNIQUEIDENTIFIER NOT NULL, 
+    [HiredDate] DATE NOT NULL DEFAULT GETUTCDATE(), 
+    [IsActive] BIT NOT NULL DEFAULT 1, 
+    CONSTRAINT [FK_SalesPerson_ToTable] FOREIGN KEY ([PersonId]) REFERENCES Person.[Person]([Id])
+)

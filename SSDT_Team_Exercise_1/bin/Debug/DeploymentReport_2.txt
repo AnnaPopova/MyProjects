@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [Person].[Customer] (Table)
+       [Person].[Person] (Table)
+       [Person].[Person].[IX_Person_IndexId] (Index)
+       [Person].[SalesPerson] (Table)
+       Default Constraint on [Person].[Customer].[Id] (Default Constraint)
+       Default Constraint on [Person].[Customer].[CreatedDate] (Default Constraint)
+       Default Constraint on [Person].[Person].[Id] (Default Constraint)
+       Default Constraint on [Person].[SalesPerson].[Id] (Default Constraint)
+       Default Constraint on [Person].[SalesPerson].[HiredDate] (Default Constraint)
+       Default Constraint on [Person].[SalesPerson].[IsActive] (Default Constraint)
+       [Person].[FK_Customer_ToPerson] (Foreign Key)
+       [Person].[FK_Customer_ToTable] (Foreign Key)
+       [Person].[FK_SalesPerson_ToTable] (Foreign Key)
+       [Person].[CK_Person_Age] (Check Constraint)
+
+** Supporting actions
