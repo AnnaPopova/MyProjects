@@ -74,6 +74,8 @@
     <Build Include="Inventory\Model.sql" />
     <Build Include="Inventory\Color.sql" />
     <Build Include="Inventory\Vehicle.sql" />
+    <Build Include="Sales\OpportunityType.sql" />
+    <Build Include="Sales\Opportunity.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SSDT_Team_Exercise_1.refactorlog" />
