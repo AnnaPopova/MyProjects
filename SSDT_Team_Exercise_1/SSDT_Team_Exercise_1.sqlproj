@@ -76,8 +76,25 @@
     <Build Include="Inventory\Vehicle.sql" />
     <Build Include="Sales\OpportunityType.sql" />
     <Build Include="Sales\Opportunity.sql" />
+    <Build Include="Person\vw_Customers.sql">
+      <ApplicationScope>False</ApplicationScope>
+    </Build>
+    <Build Include="Inventory\vw_Vehicles.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SSDT_Team_Exercise_1.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <ArtifactReference Include="bin\Debug\SSDT_Team_Exercise_1.dacpac">
+      <HintPath>bin\Debug\SSDT_Team_Exercise_1.dacpac</HintPath>
+      <SuppressMissingDependenciesErrors>True</SuppressMissingDependenciesErrors>
+      <DatabaseSqlCmdVariable>SSDT_Team_Exercise_1</DatabaseSqlCmdVariable>
+    </ArtifactReference>
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="SSDT_Team_Exercise_1">
+      <DefaultValue>SSDT_Team_Exercise_1</DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
   </ItemGroup>
 </Project>
