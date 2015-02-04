@@ -1,0 +1,28 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [Inventory].[Color] (Table)
+       [Inventory].[Make] (Table)
+       [Inventory].[Model] (Table)
+       [Inventory].[Vehicle] (Table)
+       Default Constraint on [Inventory].[Color].[Id] (Default Constraint)
+       Default Constraint on [Inventory].[Color].[CreatedDate] (Default Constraint)
+       Default Constraint on [Inventory].[Make].[Id] (Default Constraint)
+       Default Constraint on [Inventory].[Make].[CreatedDate] (Default Constraint)
+       Default Constraint on [Inventory].[Model].[Id] (Default Constraint)
+       Default Constraint on [Inventory].[Model].[CreatedDate] (Default Constraint)
+       Default Constraint on [Inventory].[Vehicle].[Id] (Default Constraint)
+       [Inventory].[FK_Vehicle_Make] (Foreign Key)
+       [Inventory].[FK_Vehicle_Model] (Foreign Key)
+       [Inventory].[FK_Vehicle_Color] (Foreign Key)
+
+** Supporting actions

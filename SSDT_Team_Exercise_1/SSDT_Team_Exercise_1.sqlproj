@@ -70,6 +70,10 @@
     <Build Include="Person\Person.sql" />
     <Build Include="Person\Customer.sql" />
     <Build Include="Person\SalesPerson.sql" />
+    <Build Include="Inventory\Make.sql" />
+    <Build Include="Inventory\Model.sql" />
+    <Build Include="Inventory\Color.sql" />
+    <Build Include="Inventory\Vehicle.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SSDT_Team_Exercise_1.refactorlog" />
