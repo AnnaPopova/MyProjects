@@ -80,6 +80,7 @@
       <ApplicationScope>False</ApplicationScope>
     </Build>
     <Build Include="Inventory\vw_Vehicles.sql" />
+    <Build Include="Sales\usp_OpportunitiesByType.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SSDT_Team_Exercise_1.refactorlog" />
